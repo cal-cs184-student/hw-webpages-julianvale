@@ -63,7 +63,7 @@
 			</p>
 
 			<figure>
-				<img src="images/test4_writeup.png" alt="test4.svg" style="width:100%" />
+				<img src="images/task1/test4_writeup.png" alt="test4.svg" style="width:100%" />
 				<figcaption>A screenshot of test4.svg, showing single color triangle rasterization.</figcaption>
 			</figure>
 
@@ -100,12 +100,31 @@
 			To the disappointment of robot rights advocates worldwide, we made the robot dab. We did this by applying a set of transforms to rotate its arms, head, and torso.
 
 			<figure>
-				<img src="images/robot_dab.png" alt="robot dabbing" style="width:100%" />
+				<img src="images/task3/robot_dab.png" alt="robot dabbing" style="width:100%" />
 				<figcaption>We apologize for any offense this figure may cause.</figcaption>
 			</figure>
 
 			<h2>Task 4: Barycentric coordinates</h2>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Barycentric coordinates describe a point inside a triangle in relation to its distance from each side of the triangle. Geometrically, you can think of each coordinate as measuring the ratio of
+			the distance from one side of the triangle to the sample point, and the distance from that side to its opposite vertex. This is very useful, as it allows us to interpolate values defined at vertices
+			across the inside of the triangle. In the following example, each vertex has a color red, green, or blue, and the color of the triangle's interior interpolates between these three colors based on a pixel's
+			barycentric coordinates.
+
+			<p>Here is an example 2x2 gridlike structure using an HTML table. Each <b>tr</b> is a row and each <b>td</b> is a column in that row. You might find this useful for framing and showing your result images in an organized fashion.</p>
+			<div style="display: flex; flex-direction: column; align-items: center;">
+				<table style="width: 100%; text-align: center; border-collapse: collapse;">
+					<tr>
+						<td style="text-align: center;">
+							<img src="images/task4/barycentric_interp.png" alt="barycentric interpolation RGB triangle" style="width:400px" />
+							<figcaption>Triangle with vertex colors red, green, and blue, with interpolated colors inside.</figcaption>
+						</td>
+						<td style="text-align: center;">
+							<img src="images/task4/test7_writeup.png" alt="test7.svg" style="width:400px" />
+							<figcaption>Screenshot of test7.svg showing barycentric interpolation allowing for interpolated vertex colors.</figcaption>
+						</td>
+					</tr>
+				</table>
+			</div>
 
 			<h2>Task 5: "Pixel sampling" for texture mapping</h2>
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
